@@ -1,0 +1,404 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: system-ui;
+}
+/* Header */
+
+header{
+    width: 100%;
+    height: 170px;
+    background-color: #1F2C34;
+}
+header .icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+header .icons .icon{
+    margin-left: 30px;
+    font-size: 20px;
+}
+header .icons .icon i{
+   margin-right: 40px;
+   color: #84919A;
+}
+header .right-section{
+    margin-right: 30px;
+}
+header .right-section h2{
+    font-size: 30px;
+    color: #86949F;
+}
+.info{
+    direction: rtl;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 45px;
+    color: #86949F ;
+    cursor: pointer;
+}
+.info .p1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    margin-right: 50px
+}
+.info .p1 h6{
+    margin-right: 15px;
+    font-size: 15px;
+   background-color: #00AB84;
+   border-radius: 50%;
+   padding: 6px 10px;
+   color: #222;
+   text-align: center;
+}
+.info .p2{
+    font-size: 22px;
+}
+.info .p3{
+    font-size: 22px;
+    margin-left: 50px;
+}
+
+
+/* Section */
+section{
+    background-color: #121B22;
+    width:100%;
+    direction: rtl;
+}
+.content1{
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.content1 .con1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ .content1 .con1 .img img{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-right: 50px;
+  margin-bottom: 20px;
+} 
+.content1 .con2{
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.content1 .con2 h2{
+    color: #fff;
+    margin-right: 30px;
+} 
+.content1 .con2 p{
+    margin-top: 10px;
+    color: #dddddd8c;
+}
+.content1 .clock{
+    margin-left: 30px;
+    margin-bottom: 30px;
+    direction: ltr;
+
+}
+.content1 .clock h4{
+    color: #00AB84;
+    font-size: 16px;
+}
+.content1 .clock p{
+    font-size: 15px;
+   background-color: #00AB84;
+   border-radius: 50%;
+   padding:4px 2px;
+   color: #222;
+   width: 25px;
+   text-align: center;
+   margin-top: 10px;
+   margin-left: 15px;
+}
+
+.content2{
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.content2 .con1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ .content2 .con1 .img img{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-right: 50px;
+  margin-bottom: 20px;
+} 
+.content2 .con2{
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.content2 .con2 h2{
+    color: #fff;
+    margin-right: 30px;
+} 
+.content2 .con2 p{
+    /* margin-top: 10px; */
+    color: #dddddd8c;
+    margin-right: 10px;
+    margin-top: -8px;
+}
+.content2 .i{
+    display: flex;
+    margin-top: 20px;
+    color: #dddddd8c;
+}
+.content2 .clock{
+    margin-left: 30px;
+    margin-bottom: 30px;
+    direction: ltr;
+
+}
+.content2 .clock h4{
+    font-size: 16px;
+    color: #495259;
+}
+
+
+@media screen and (max-width:400px) {
+    header{
+        height: 130px;
+    }
+    header .icons{
+        padding-top: 25px;
+    }
+    header .icons .icon{
+        font-size:small;
+    }
+    header .icons .icon i{
+        margin-right: 20px;
+     }
+     header .right-section h2{
+        font-size:medium;
+        color: #86949F;
+    }
+    .info{
+        margin-top: 50px;
+    }
+    .info .p1{
+        font-size: small;
+        margin-right: 25px;
+    }
+    .info .p1 h6{
+        font-size: small;
+        padding: 2px 6px;
+    }
+    .info .p2{
+        font-size: small;
+
+    }
+    .info .p3{
+        font-size: small;
+        margin-left: 25px;
+    }
+    .content1 .con1 .img img{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        margin-right: 20px;
+        margin-bottom: 20px;
+      } 
+      .content2 .con1 .img img{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        margin-right: 20px;
+      } 
+      .content1 .con2{
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+    .content1 .con2 h2{
+        margin-right: 15px;
+       font-size: medium;  
+  } 
+    .content1 .con2 p{
+        margin-top: 10px;
+       font-size: x-small  ;
+    }
+    .content2 .con2{
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+    .content2 .con2  h2{
+        margin-right: 15px;
+       font-size: xx-small;  
+  } 
+    .content2 .con2 p{
+       font-size: x-small;
+       margin-top: 0;
+       margin-right: 5px;
+    }
+    .content2 .clock{
+        margin-left: 10px;
+        margin-bottom: 30px;
+    
+    }
+    .content2 .clock h4{
+        color: #495259;
+        font-size: small;
+    }
+    .content1 .clock{
+        margin-left: 10px;
+        margin-bottom: 20px;
+    
+    }
+    .content1 .clock h4{
+        color: #00AB84;
+        font-size: x-small;
+    }
+    .content1 .clock p{
+        font-size: x-small;
+       background-color: #00AB84;
+       border-radius: 50%;
+       padding:3px ;
+       color: #222;
+       width: 15px;
+       text-align: center;
+       margin-top: 10px;
+       margin-left: 15px;
+    }
+    .content2 .con2 h2{
+        font-size: small;
+    }
+    .content2 .i{
+        margin-top: 10px;
+        font-size: small;
+    }
+}
+
+
+
+@media screen and (min-width:401px) and (max-width:768px) {
+    header{
+        height: 150px;
+    }
+    header .icons{
+        padding-top: 25px;
+    }
+    header .icons .icon{
+        font-size:medium;
+    }
+    header .icons .icon i{
+        margin-right: 25px;
+     }
+     header .right-section h2{
+        font-size:large;
+    }
+    .info{
+        margin-top: 60px;
+    }
+    .info .p1{
+        font-size: medium;
+        margin-right: 25px;
+    }
+    .info .p1 h6{
+        font-size: small;
+        padding: 2px 6px;
+    }
+    .info .p2{
+        font-size: medium;
+
+    }
+    .info .p3{
+        font-size: medium;
+        margin-left: 25px;
+    }
+    .content1 .con1 .img img{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        margin-right: 20px;
+        margin-bottom: 20px;
+      } 
+      .content2 .con1 .img img{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        margin-right: 20px;
+      } 
+      .content1 .con2{
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+    .content1 .con2 h2{
+        margin-right: 15px;
+       font-size: large;  
+  } 
+    .content1 .con2 p{
+        margin-top: 10px;
+       font-size: medium  ;
+    }
+    .content2 .con2{
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+    .content2 .con2  h2{
+        margin-right: 15px;
+       font-size: large;  
+  } 
+    .content2 .con2 p{
+       font-size: medium;
+       margin-top: -5px;
+       margin-right: 5px;
+    }
+    .content2 .clock{
+        margin-left: 10px;
+        margin-bottom: 30px;
+    
+    }
+    .content2 .clock h4{
+        color:#495259;
+        font-size: large;
+    }
+    .content1 .clock{
+        margin-left: 10px;
+        margin-bottom: 30px;
+    
+    }
+    .content1 .clock h4{
+        color: #00AB84;
+        font-size: large;
+    }
+    .content1 .clock p{
+        font-size: medium;
+       background-color: #00AB84;
+       border-radius: 50%;
+       padding:3px;
+       color: #222;
+       width: 25px;
+       text-align: center;
+       margin-top: 10px;
+       margin-left: 15px;
+    }
+    .content2 .con2 h2{
+        font-size: small;
+    }
+    .content2 .i{
+        margin-top: 10px;
+        font-size: small;
+    }
+}
